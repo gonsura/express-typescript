@@ -1,4 +1,3 @@
-import { type } from 'os'
 import { LogError } from '@interfaces/utils';
 
 export type AnsiColor = (s: string) => string
