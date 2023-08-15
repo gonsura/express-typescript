@@ -1,5 +1,3 @@
-import { LogError } from '@interfaces/utils';
-
 export type AnsiColor = (s: string) => string
 export type AnsiCustomColor = (colorNumber: number) => (s: string) => string
 
